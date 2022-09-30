@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         etPass.setText("");
     }
 
-    //idk. I'm so sorry
     public void onRetrieve(View view){
         SQLiteDatabase forms = helper.getReadableDatabase();
         String string = etSite.getText().toString();
